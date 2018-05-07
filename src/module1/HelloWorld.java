@@ -53,7 +53,7 @@ public class HelloWorld extends PApplet {
 		this.background(150, 100, 100);
 
 		// Select a map provider
-//		AbstractMapProvider provider = new Google.GoogleTerrainProvider();
+		// AbstractMapProvider provider = new Google.GoogleTerrainProvider();
 		AbstractMapProvider provider = new OpenStreetMap.OpenStreetMapProvider();
 		// Set a zoom level
 		int zoomLevel = 10;
@@ -92,8 +92,8 @@ public class HelloWorld extends PApplet {
 
 		float map2Startx = map1Start.x + map1.getWidth() + paddingx;
 		float map2Starty = map1Start.y;
-		float map2width = 800 - map2Startx;
-		float map2height = 800;
+		float map2width = width - map2Startx;
+		float map2height = height;
 		map2 = new UnfoldingMap(this, map2Startx, map2Starty, map2width, map2height, provider);
 		map2.zoomAndPanTo(zoomLevel, new Location(28.9f, 77.2f));
 		MapUtils.createDefaultEventDispatcher(this, map2);
