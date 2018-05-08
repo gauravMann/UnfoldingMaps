@@ -89,6 +89,7 @@ public class HelloWorld extends PApplet {
 
 		// gives screen position of map1 top left corner
 		ScreenPosition map1Start = map1.getScreenPosition(map1.getTopLeftBorder());
+		
 
 		float map2Startx = map1Start.x + map1.getWidth() + paddingx;
 		float map2Starty = map1Start.y;

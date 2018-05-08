@@ -87,7 +87,7 @@ public class EarthquakeCityMap extends PApplet {
 	 * feature and returns a SimplePointMarker for that earthquake
 	 * 
 	 * In step 3 You can use this method as-is.  Call it from a loop in the 
-	 * setp method.  
+	 * setup method.  
 	 * 
 	 * TODO (Step 4): Add code to this method so that it adds the proper 
 	 * styling to each marker based on the magnitude of the earthquake.  
