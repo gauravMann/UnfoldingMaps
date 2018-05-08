@@ -4,11 +4,9 @@ import java.util.ArrayList;
 import java.util.List;
 
 import de.fhpotsdam.unfolding.UnfoldingMap;
-import de.fhpotsdam.unfolding.data.Feature;
 import de.fhpotsdam.unfolding.data.PointFeature;
 import de.fhpotsdam.unfolding.providers.AbstractMapProvider;
 import de.fhpotsdam.unfolding.providers.OpenStreetMap;
-import de.fhpotsdam.unfolding.geo.Location;
 import de.fhpotsdam.unfolding.marker.Marker;
 import de.fhpotsdam.unfolding.marker.SimplePointMarker;
 import de.fhpotsdam.unfolding.utils.MapUtils;
@@ -69,7 +67,7 @@ public class EarthQuakeCityMap extends PApplet {
 		// TODO Auto-generated method stub
 		String URL = "/home/knuth/Documents/Github/UnfoldingMaps/data/key.jpg";
 		keyImg = loadImage(URL, "jpg");
-		image(keyImg,10,200);
+		image(keyImg, 10, 200);
 
 	}
 
