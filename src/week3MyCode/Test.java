@@ -1,4 +1,4 @@
-package module2;
+package week3MyCode;
 
 import processing.core.*;
 
